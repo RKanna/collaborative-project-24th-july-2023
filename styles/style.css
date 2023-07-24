@@ -86,8 +86,8 @@ body {
 } */
 .magnify {
   position: absolute;
-  top: 1.5rem;
-  left: 25rem;
+  top: 29%;
+  left: 85%;
   width: 7%;
   color: white;
   background-color: yellow;
@@ -246,12 +246,15 @@ h1 {
   height: 23rem;
   background-color: yellow;
   border-radius: 0.5rem;
+  overflow: hidden;
 }
 .setOne-img {
   width: 100%;
+  position: relative;
 }
 .set-one-img {
   width: 100%;
+  position: relative;
 }
 .ul-class {
   display: flex;
@@ -273,5 +276,22 @@ li {
   gap: 0.5rem;
 }
 .star {
+  margin-top: 1rem;
   width: 1rem;
+}
+.heart {
+  position: absolute;
+  z-index: 10000;
+  width: 7%;
+  top: 2%;
+  left: 89%;
+}
+.bold-set {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.radius-img {
+  height: 14.3rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
