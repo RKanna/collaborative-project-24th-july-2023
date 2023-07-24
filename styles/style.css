@@ -86,11 +86,13 @@ body {
 } */
 .magnify {
   position: absolute;
-  top: 29%;
+  top: 35%;
   left: 85%;
-  width: 7%;
+  width: 5%;
   color: white;
-  background-color: yellow;
+  background-color: gray;
+  border-radius: 50%;
+  cursor: pointer;
 }
 .btn-section {
   width: 33.33%;
@@ -220,8 +222,8 @@ h1 {
 }
 .boat-section {
   width: 100%;
-  height: 56rem;
-  background-color: aqua;
+  height: 79rem;
+  /* background-color: aqua; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -229,7 +231,7 @@ h1 {
 .boat-img-div {
   margin: 2rem;
   width: 100%;
-  height: 55rem;
+  height: 77rem;
   background-color: white;
 }
 
@@ -242,11 +244,12 @@ h1 {
   padding: 1rem;
 }
 .boat-img {
-  width: 20rem;
+  width: 22rem;
   height: 23rem;
-  background-color: yellow;
+  /* background-color: yellow; */
   border-radius: 0.5rem;
   overflow: hidden;
+  cursor: pointer;
 }
 .setOne-img {
   width: 100%;
@@ -287,11 +290,64 @@ li {
   left: 89%;
 }
 .bold-set {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.5rem;
 }
 .radius-img {
   height: 14.3rem;
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
+}
+.css-changes {
+  height: 14.3rem;
+}
+.place {
+  color: #4a5463;
+  font-weight: 400;
+}
+.footer-section {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: yellow; */
+  margin: 2rem;
+}
+.footer-line {
+  width: 96%;
+  border-top: 2px solid #dcdddc;
+}
+.footer-content-container {
+  display: flex;
+  margin-top: 2rem;
+}
+.footer-left-container {
+  width: 50%;
+}
+.footer-right-container {
+  width: 50%;
+}
+.footer-ul {
+  display: flex;
+  justify-content: center;
+  margin-left: 10rem;
+}
+.footer-li {
+  list-style: none;
+  margin-left: 2rem;
+}
+.anchor-footer {
+  text-decoration: none;
+  color: black;
+}
+.redQ {
+  text-decoration: none;
+  color: black;
+}
+.redQ-text {
+  font-weight: 700;
+}
+.redQ-text:hover {
+  text-decoration: underline;
 }
