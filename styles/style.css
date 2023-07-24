@@ -243,8 +243,35 @@ h1 {
 }
 .boat-img {
   width: 20rem;
-  height: 15rem;
+  height: 23rem;
   background-color: yellow;
-  cursor: pointer;
   border-radius: 0.5rem;
+}
+.setOne-img {
+  width: 100%;
+}
+.set-one-img {
+  width: 100%;
+}
+.ul-class {
+  display: flex;
+}
+li {
+  margin-left: 0rem;
+}
+.first-list {
+  list-style: none;
+  font-weight: 700;
+}
+.secondlist {
+  margin-left: 1.5rem;
+  font-weight: 700;
+}
+.img-description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.star {
+  width: 1rem;
 }
